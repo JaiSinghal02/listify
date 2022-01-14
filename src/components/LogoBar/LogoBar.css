@@ -1,0 +1,26 @@
+.logoBar-div{
+    height: 130px;
+    display: flex;  
+    justify-content: space-between;
+}
+.logoBar-container{
+    padding-top: 20px;
+}
+.logoBar-div img{
+    height: 100px;
+    width: 370px;
+}
+.logoBarTag-div{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoBarTag-container{
+    padding-left: 80px;
+}
+.logoBarTag-container p{
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 4px;
+}

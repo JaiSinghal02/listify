@@ -1,0 +1,44 @@
+table{
+    table-layout: fixed;
+}
+.table-head{
+    max-width: 400px;
+    height: 30px;
+}
+.table-number-head{
+    width: 7%;
+    min-width: 40px;
+}
+.table-username-head{
+    width: 15%;
+    min-width: 200px;
+}
+.table-mobile-head{
+    width: 10%;
+    min-width: 120px;
+}
+.table-delete-head{
+    width: 10%;
+    min-width: 40px;
+}
+.table-content-row{
+    height:55px;
+    margin: 10px 0;
+}
+.table-content-data{
+    max-width: 400px;
+    height: 50px;
+}
+.table-content-index{
+    width: 10%;
+}
+.table-content-delete{
+    width: 10%;
+}
+.table-delete-div:hover{
+    cursor: pointer;
+}
+.table-delete-icon{
+    height: 22px;
+    width:28px
+}

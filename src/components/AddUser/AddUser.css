@@ -1,0 +1,79 @@
+.adduser-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.adduser-field-div{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 50px;
+    margin: 25px 0;
+}
+.adduser-field-container{
+    display: flex;
+    width: 80%;
+}
+.adduser-field-tag{
+    width: 250px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    margin-right: 20px;
+}
+.adduser-field-tag p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+}
+.adduser-field-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.adduser-field-input input{
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    padding-bottom: 4px;
+    background: transparent;
+}
+.adduser-button-div{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 50px;
+    margin-top: 20px;
+}
+.adduser-button-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.adduser-button{
+    width: 110px;
+    border-radius: 10px;
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:floralwhite;
+    transition: transform 2000ms;
+}
+.adduser-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.adduser-button p{
+    margin:0;
+    font-size: 20px;
+    font-weight: 700;
+}
